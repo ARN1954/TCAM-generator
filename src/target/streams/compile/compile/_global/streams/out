@@ -1,0 +1,16 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/atharva/pristine-chipyard/generators/tcam/src/main/scala/tcam/TCAM.scala:83:20: type SimpleDevice in package diplomacy is deprecated (since rocketchip 2.0.0): Use freechips.rocketchip.resources.SimpleDevice[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val device = new SimpleDevice("tcam", Seq("ucbbar,tcam"))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/atharva/pristine-chipyard/generators/tcam/src/main/scala/tcam/TCAM.scala:197:18: value LazyModule in package diplomacy is deprecated (since rocketchip 2.0.0): Diplomacy has been split to a standalone library[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val tcam = LazyModule(new TCAMAXI4(params, pbus.beatBytes)(p))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/atharva/pristine-chipyard/generators/tcam/src/main/scala/tcam/TCAM.scala:207:18: value LazyModule in package diplomacy is deprecated (since rocketchip 2.0.0): Diplomacy has been split to a standalone library[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val tcam = LazyModule(new TCAMTL(params, pbus.beatBytes)(p))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/atharva/pristine-chipyard/generators/tcam/src/main/scala/tcam/TCAMConfigs.scala:96:44: value LazyModule in package diplomacy is deprecated (since rocketchip 2.0.0): Diplomacy has been split to a standalone library[0m
+[0m[[0m[33mwarn[0m] [0m[0m  case BuildRoCC => Seq((p: Parameters) => LazyModule([0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/atharva/pristine-chipyard/generators/tcam/src/main/scala/tcam/TCAMConfigs.scala:116:44: value LazyModule in package diplomacy is deprecated (since rocketchip 2.0.0): Diplomacy has been split to a standalone library[0m
+[0m[[0m[33mwarn[0m] [0m[0m  case BuildRoCC => Seq((p: Parameters) => LazyModule([0m
+[0m[[0m[33mwarn[0m] [0m[0m                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m

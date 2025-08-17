@@ -1,0 +1,3 @@
+# Ignore build/target directories
+src/target/
+

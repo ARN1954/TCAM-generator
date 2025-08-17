@@ -11,7 +11,7 @@ class WithTCAM(params: TCAMParams = TCAMParams()) extends Config((site, here, up
 })
 
 // 64x28 TCAM configuration
-class WithTCAM64x28 extends Config(
+class WithTCAM64x28TL extends Config(
   new WithTCAM(TCAMParams(
     width = 32,
     keyWidth = 28,  // queryStrLen
@@ -51,7 +51,7 @@ class WithTCAM64x28AXI4 extends Config(
 )
 
 // 32x28 TCAM configuration
-class WithTCAM32x28 extends Config(
+class WithTCAM32x28TL extends Config(
   new WithTCAM(TCAMParams(
     width = 32,
     keyWidth = 28,  // 28-bit address
